@@ -9,15 +9,15 @@ import Footer from './components/Footer';
 
 
 function App() {
-
   return (
-    <div className='container'>
-      <Header title="Welcome to JingoBoards"/>
-      <Main />
-      <Sidebar />
-      <Footer />
+    <div className="container">
+      <Header id="header" title="Welcome to JingoBoards" />
+      <Main id="main" />
+      <Sidebar id="sidebar" />
+      <Footer id="footer" />
     </div>
   );
 }
+
 
 export default App;
